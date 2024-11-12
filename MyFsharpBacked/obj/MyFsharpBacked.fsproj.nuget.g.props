@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/nals_macbook_123/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/nals_macbook_123/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/nals_macbook_123/.nuget/packages/" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/Users/nals_macbook_123/.nuget/packages/fsharp.core/8.0.401</PkgFSharp_Core>
+    <PkgPly Condition=" '$(PkgPly)' == '' ">/Users/nals_macbook_123/.nuget/packages/ply/0.3.1</PkgPly>
+    <PkgMySql_Data Condition=" '$(PkgMySql_Data)' == '' ">/Users/nals_macbook_123/.nuget/packages/mysql.data/8.0.31</PkgMySql_Data>
+    <PkgMicrosoft_AspNetCore_Cors Condition=" '$(PkgMicrosoft_AspNetCore_Cors)' == '' ">/Users/nals_macbook_123/.nuget/packages/microsoft.aspnetcore.cors/2.2.0</PkgMicrosoft_AspNetCore_Cors>
+    <PkgGiraffe Condition=" '$(PkgGiraffe)' == '' ">/Users/nals_macbook_123/.nuget/packages/giraffe/5.0.0</PkgGiraffe>
+  </PropertyGroup>
+</Project>
